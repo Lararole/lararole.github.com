@@ -1,0 +1,43 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:
+100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,
+500i,700,700i,900,900i&display=swap');
+/*
+
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+*/
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+     }
+	 
+h1{
+	line-height:0;
+	display:inline;
+	font-size:100%;
+	font-weight:100%;
+  }
+h2{
+	font-size:36;
+  }
+h3{
+	font-size:28;
+  }
+h4{
+	font-size:24;
+  }
+h5{
+	font-size:20;
+  }
+h6{
+	font-size:18;
+  }
+.target p{
+	color:red;
+   }
