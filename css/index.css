@@ -1,0 +1,26 @@
+.banner_page{
+	background-color:#F5F5FA;
+	height: 45px;
+	width: 35%;
+	margin-top: 40px;
+}
+.banner_icon{
+	float:left;
+	background-color:#4099DE;
+}
+.banner_icon i{
+	padding:8px;
+	font-size:29px;
+	color: white;
+}
+.banner_content{
+	padding:3px;
+}
+.banner_content small{
+	font-size:16px;
+	margin-left: 15px;
+	color:#CFCFD4;
+}
+.banner_content small i{
+	padding:10px;
+}

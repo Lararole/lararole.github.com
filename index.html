@@ -17,8 +17,9 @@
 	    <link rel="stylesheet" href="css/typography.css" >
 		<!-- typo use in css link End-->
 		
-		<!-- header link start-->
+		<!-- header page_content link start-->
 	    <link rel="stylesheet" href="css/header.css" >
+		<link rel="stylesheet" href="css/index.css" >
 		<!-- header link End-->
 		
 		<style>
@@ -32,27 +33,50 @@
 			HEADER STARTS 
 		=========================================
   		-->
-		<div class="container">
-			<div class="header_row">
-				<div class="logo_img">
-					<img src="images/logo.png" alt="show img">
-					<h2>Lararole</h2>
+		<header class="header">
+			<div class="container">
+				<div class="header_row">
+					<div class="logo_img">
+						<img src="images/logo.png" alt="show img">
+						<h2>Lararole</h2>
+					</div>
+					<div class="nav_list">
+						<ul class="navigation_menu">
+							<li><a href="">Documentation</a></li>
+							<li><a href="">vapor</a></li>
+							<li><a href=""><span>Ecosystem</span><i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+							<li><a href="">News</a></li>
+							<li><a>Partners</a></li>
+						</ul>
+					</div>
+					<div class="navbar_search">
+						<span><i class="fa fa-search" aria-hidden="true"></i></span>
+						<input type="text" placeholder="Search Docs">
+					</div>
 				</div>
-				<div class="nav_list">
-					<ul class="navigation_menu">
-						<li><a href="">Documentation</a></li>
-						<li><a href="">vapor</a></li>
-						<li><a href=""><span>Ecosystem</span><i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
-						<li><a href="">News</a></li>
-						<li><a>Partners</a></li>
-					</ul>
+			</div>	
+	    </header>
+		  <!--
+		=========================================
+			Index Content Start
+		=========================================
+  		  --> 
+		 
+		  <!--
+		=========================================
+			Banner Start
+		=========================================
+  		  -->   
+		<section>
+			<div class="banner_page">
+				<div class="banner_icon">
+					<i class="fa fa-globe" aria-hidden="true"></i>
 				</div>
-				<div class="navbar_search">
-					<span><i class="fa fa-search" aria-hidden="true"></i></span>
-					<input type="text" placeholder="Search Docs">
+				<div class="banner_content">
+				 <small>Laracon is March 30- 29th.Get your tickets now !<i class="fa fa-long-arrow-right" aria-hidden="true"></i></small>
 				</div>
 			</div>
-		</div>	
+		</section>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
