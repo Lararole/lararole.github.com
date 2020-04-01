@@ -1,3 +1,4 @@
+/*============banner css============ */
 .banner_page{
 	background-color:#F5F5FA;
 	height: 45px;
@@ -17,10 +18,58 @@
 	padding:3px;
 }
 .banner_content small{
-	font-size:16px;
+	font-size:15px;
 	margin-left: 15px;
 	color:#CFCFD4;
 }
-.banner_content small i{
+.banner_content small a i{
 	padding:10px;
+}
+/*=========== Heading Content section ============ */
+.heading_detail{
+	width:100%;
+	float:left;
+	position:relative;
+	margin-top: 20px;
+}
+.heading_content{
+	float:left;
+}
+.heading_content h1{
+	width:60%;
+	font-weight:500;
+	margin: 96px 0px 41px 0px;
+}
+.heading_content p{
+	display: inline-block;
+	width: 52%;
+	margin-bottom: 0px;
+	color: #C1C1C3;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 31px;
+}
+.content_img{
+	position: absolute;
+	right: 0;
+	z-index: -1;
+}
+.content_img img{
+	width:88%;
+}
+.heading_button button{
+	margin-right:21px;
+}
+.heading_button button span{
+	height: 25px;
+	width: 25px;
+	background-color: #FF2D20;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 7px;
+}
+.heading_button button span i{
+	font-size: 13px;
+	margin-left: 4px;
+	color:white;
 }
