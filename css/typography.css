@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700,900|Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
 /*
-
-
     font-family: 'Libre Franklin', sans-serif;
 
     font-family: 'Frank Ruhl Libre', serif;
@@ -11,10 +9,7 @@
 
     font-family: 'Montserrat', sans-serif;
 
-    font-family: 'Poppins', sans-serif;
-
-
-							
+    font-family: 'Poppins', sans-serif;							
 */
 section{
 	float: left;
@@ -313,9 +308,12 @@ footer,
     float: left;
     width: 100%;
 }
+
 .mb20{
     margin-bottom: 20px;
 }
+
+
 .dl-menuwrapper{
     display: none;
 }
@@ -329,6 +327,7 @@ footer,
   color: #fff;
 }
 
+
 .eft-1 span {
   position: absolute;
   width: 0;
@@ -339,16 +338,20 @@ footer,
    transform: translate(-50%, -50%);
   z-index: -1;
 }
+
 .eft-1:hover span {
   width: 220%;
   height: 550px;
 }
+
 .eft-1:hover{
     color: #fff;
 }
+
 .eft-1:active {
   background-color: #3c0924;
 }
+
 .btn-mdsmall,
 .btn-normal{
     padding: 14px 30px;
