@@ -1,0 +1,25 @@
+/*=========== Footer css============ */
+
+/*=========== partners section ============ */
+.partner_section{
+	float:left;
+	width:100%;
+}
+.partner_content{
+	box-shadow: 0px 20px 30px -16px rgba(9,9,16,.2);
+	padding: 69px;
+	margin-top:70px;
+}
+.partner_content p{
+	width: 69%;
+	display: inline-block;
+	color: #525257;
+	font-size: 18px;
+	line-height: normal;
+	font-weight: 300;
+	margin-top: 46px;
+}
+.partner_content button{
+	float: right;
+	margin-top: 19px;
+}
